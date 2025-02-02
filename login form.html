@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .login {
+            background: white;
+            width: 300px;
+        }
+
+        .login h2 {
+            text-align: center;
+        }
+
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input {
+            width: 95%;
+            padding: 8px;
+            border: 1px solid;
+        }
+
+        .forgot-password {
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: lightskyblue;
+            color: white;
+            border: none;
+        }
+
+        button:hover {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <a href="forgetpass.html" class="forgot-password">Forgot Password?</a>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
