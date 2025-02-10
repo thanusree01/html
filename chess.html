@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 500px;
+            height: 500px;
+        }
+
+        td {
+            width: 12.5%;
+            height: 12.5%;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 30px;
+        }
+
+        tr:nth-child(even) td:nth-child(even),
+        tr:nth-child(odd) td:nth-child(odd) {
+            background-color: rgb(201, 247, 201);
+        }
+
+        tr:nth-child(even) td:nth-child(odd),
+        tr:nth-child(odd) td:nth-child(even) {
+            background-color: rgb(35, 214, 110);
+        }
+
+        .white-piece {
+            color: white;
+        }
+
+        .black-piece {
+            color: black;
+        }
+
+        .white-piece:hover {
+            font-size: 40px;
+        }
+
+        .black-piece:hover {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chessboard</h1>
+    <table border="black" height="500px" width="500px">
+        <tr>
+            <td class="white-piece">♖</td>
+            <td class="white-piece">♘</td>
+            <td class="white-piece">♗</td>
+            <td class="white-piece">♕</td>
+            <td class="white-piece">♔</td>
+            <td class="white-piece">♗</td>
+            <td class="white-piece">♘</td>
+            <td class="white-piece">♖</td>
+        </tr>
+        <tr>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+            <td class="white-piece">♙</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+            <td class="black-piece">♟</td>
+        </tr>
+        <tr>
+            <td class="black-piece">♜</td>
+            <td class="black-piece">♞</td>
+            <td class="black-piece">♝</td>
+            <td class="black-piece">♚</td>
+            <td class="black-piece">♛</td>
+            <td class="black-piece">♝</td>
+            <td class="black-piece">♞</td>
+            <td class="black-piece">♜</td>
+        </tr>
+    </table>
+</body>
+
+</html>
