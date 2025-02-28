@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR Architects</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        nav {
+            background-color: #f0f0f0;
+            padding: 1rem;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        header {
+            background-position: center;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-card .title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">BR Architects</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h1>BR Architects</h1>
+        </div>
+    </header>
+    <img src="https://www.w3schools.com/w3images/architect.jpg">
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house5.jpg" alt="Summer House">
+                <div class="title">Summer House</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="Brick House">
+                <div class="title">Brick House</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="Renovated">
+                <div class="title">Renovated</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house4.jpg" alt="Barn House">
+                <div class="title">Barn House</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" alt="Brick House">
+                <div class="title">Brick House</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house5.jpg" alt="Summer House">
+                <div class="title">Summer House</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house3.jpg" alt="Barn House">
+                <div class="title">Barn House</div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.w3schools.com/w3images/house4.jpg" alt="Renovated">
+                <div class="title">Renovated</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
